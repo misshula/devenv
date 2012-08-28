@@ -1,0 +1,10 @@
+include_recipe "apt"
+include_recipe "git"
+include_recipe "build-essential"
+include_recipe "nodejs"
+include_recipe "nodejs::npm"
+include_recipe "redis::source"
+include_recipe "openssl"
+include_recipe "postgresql"
+include_recipe "postgresql::server"
+
