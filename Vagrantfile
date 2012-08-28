@@ -4,7 +4,7 @@
 Vagrant::Config.run do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "understoodit"
+  config.vm.box = "development"
 
   # Forward a port from the guest to the host, which allows for outside
   # computers to access the VM, whereas host only networking does not.
